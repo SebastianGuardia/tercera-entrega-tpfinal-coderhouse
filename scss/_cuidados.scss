@@ -1,0 +1,28 @@
+.imagenCuidados{
+    width: 500px;
+    height: 500px;
+    }
+  .cuidados{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: solid 1px #99a799;
+    border-radius: 4px;
+  }
+  .cuidados h2{
+    border: solid 2px #000000;
+    border-radius: 4px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .cuidados p{
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      grid-row-end: 4;
+  }
